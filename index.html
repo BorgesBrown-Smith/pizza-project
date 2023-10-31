@@ -14,8 +14,8 @@
                  <div class="row">
                      <ul style="list-style: none" class="d-flex gap-10 justify-content-start">
                          <li>Pizza World</li>
-                         <li> Order Online</li>
-                         <li> Menu </li>
+                         <li><a href="#" class="order-online">Order Online</a></li>
+                         <li><a href="#" class="menu">Menu</a></li>
                          <li><input type="zipcode" id="zip code" placeholder="Zip Code" name="Zip Code" required>
                          <input type="submit" value="Search stores near you!">
                          </li>
@@ -36,13 +36,13 @@
     <div class="row Pizza Header">
         <div class="column pizza-picture">
             <img src="image/pizza.png" alt="pizza" class="pizza-image">
-            <div class="bg-success p-2 text-dark bg-opacity-25">Welcome to Pizza World!</div>
+            <div class="bg-light p-2 text-dark bg-opacity-50">Welcome to Pizza World!</div>
         </div>
     </div>
 </div>
  <section>
 <h1 class="Title"> Build your own pizza! </h1>
-     <ul class="nav nav-tabs">
+     <ul class="nav nav-tabs" style="width: 72.5%">
          <li class="nav-item">
              <a class="nav-link active" aria-current="page" href="#"><span class="badge bg-secondary">1</span>
              </button>Size and Crust</a>
@@ -56,26 +56,42 @@
              </button>Toppings</a>
          </li>
      </ul>
-     <div class="card" style="width: 18rem;">
-         <div class="card-header">
+     <div class="p-3 mb-2 bg-primary text-white" style="width: 72.5%">Choose Size and Crust</div>
+     <div class="card" style="width: 72.5%;">
+         <div class="card-header ">
              Hand Tossed
          </div>
          <ul class="list-group list-group-flush">
              <li class="list-group-item">Garlic seasoned crust with a rich, buttery taste</li>
-             <li class="list-group-item">Small (10")</li>
-             <li class="list-group-item">Medium (12")</li>
+             <li class="list-group-item">
+                 <input class="form-check-input me-1" type="radio" value="" aria-label="...">
+                 Small (10")
+             </li>
+             <li class="list-group-item">
+                 <input class="form-check-input me-1" type="radio" value="" aria-label="...">
+                 Medium (12")
          </ul>
      </div>
-     <div class="card" style="width: 18rem;">
+     <div class="card" style="width: 72.5%;">
          <div class="card-header">
              Crispy Thin
          </div>
          <ul class="list-group list-group-flush">
              <li class="list-group-item">Thin enough for optimum crispy to crunchy ratio</li>
-             <li class="list-group-item">Medium (12")</li>
-             <li class="list-group-item">Large (14")</li>
+             <li class="list-group-item">
+                 <input class="form-check-input me-1" type="radio" value="" aria-label="...">
+                 Medium (12")
+             </li>
+             <li class="list-group-item">
+                 <input class="form-check-input me-1" type="radio" value="" aria-label="...">
+                 Large (14")
          </ul>
+         <footer class="card-header" class="card">
+             <button type="button" class="btn btn-primary">
+                 Next Step > </button>
+         </footer>
      </div>
+
 
  </section>
 </body>

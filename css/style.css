@@ -9,6 +9,18 @@
     right: 220px;
 
 }
+
+.order-online {
+    text-decoration: black;
+    color: black;
+    font-size: 12px;
+}
+
+.menu {
+    text-decoration: black;
+    color: gray;
+    font-size: 12px;
+}
 .bi-person-fill{
     position: relative;
     align-items: end;
@@ -36,7 +48,7 @@ input {
 
 }
 
-.bg-success {
+.bg-light{
     position: absolute;
     justify-content: center;
     right: 200px;
@@ -46,6 +58,11 @@ input {
     text-align: center;
     font-size: x-large;
 
+
+}
+
+.bg-secondary {
+    border-radius: 999px;
 }
 
 .Title {
@@ -54,8 +71,28 @@ input {
     right: -200px;
 }
 
-.card {
+.nav-tabs {
     position: relative;
     justify-content: start;
-    right: -500px;
+    right: -200px;
 }
+
+.p-3 {
+    position: relative;
+    justify-content: start;
+    right: -200px;
+}
+.card {
+    position: relative;
+    /*justify-content: start;*/
+    right: -200px;
+}
+
+.btn-primary {
+    position: relative;
+    right: -900px;
+
+}
+
+
+
